@@ -7,6 +7,7 @@ void solve()
     cin >> n;
     cout << n << " ";
 
+    // The loop will break until n beacome 1
     while (n != 1)
     {
         // if n is even, the algorithm divides it by two
