@@ -6,34 +6,20 @@ using namespace std;
 //We can see from the question that in the array/vector from n natural numbers, one number is missing. 
 // So, if we sum the numbers in vector and subtract from the NSum, we will get the missing number.
 
-void solve()
-{
-    int n, sum = 0;
-    cin >> n;
-    vector<int> v;
+class Solution {
+public:
+    int missingNumber(vector<int>& nums) {
+    int totalSum = 0;
+    int n = nums.size();
+
+    for (int i = 0; i < nums.size(); i++)
+    {
+        totalSum += nums[i];
+    }
+
+    int AllNSum = (n * (n + 1)) / 2;
+
+    return AllNSum-totalSum;
     
-    //We have to take input (n-1) numbers because one number is missing 
-    for (int i = 0; i < n-1; i++)
-    {
-        int x;
-        cin >> x;
-        v.push_back(x);
     }
-     //We also have to traverse the vector (n-1) times because (n-1) numbers exist in vector 
-    for (int i = 0; i < n-1; i++)
-    {
-        sum += v[i];
-    }
-
-    int AllNumSum = n * (n + 1) / 2;
-
-    int ans = AllNumSum - sum;
-
-    cout << ans << endl;
-}
-
-int main()
-{
-    solve();
-    return 0;
-}
+};
