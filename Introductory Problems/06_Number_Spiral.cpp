@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void solve()
+void solution()
 {
     long long int row, col, ans;
     cin >> row >> col;
@@ -41,7 +41,7 @@ int main()
     cin >> t;
     while (t--)
     {
-        solve();
+        solution();
     }
     return 0;
 }
