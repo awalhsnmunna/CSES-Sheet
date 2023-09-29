@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void solution()   
+void solution()    
 {     
     long long n;   
     cin >> n;
