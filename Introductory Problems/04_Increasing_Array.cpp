@@ -9,7 +9,7 @@ using namespace std;
 2) Next we have to update the value of next index element of array so that
 both current and previous index value is equal */
 
-void solve()
+void solution()
 {
     long long int moves = 0, q = 0, n;
     cin >> n;
@@ -36,6 +36,6 @@ void solve()
 
 int main()
 {
-    solve();
+    solution();
     return 0;
 }
