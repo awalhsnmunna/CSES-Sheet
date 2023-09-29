@@ -3,7 +3,7 @@ using namespace std;
 
 void solution()       
 {          
-    long long n;     
+    long long n;      
     cin >> n;
     cout << n << " ";
 
