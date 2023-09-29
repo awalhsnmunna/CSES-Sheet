@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 
-void solve()
+void solution()
 {
     long long n;
     cin >> n;
@@ -27,6 +27,6 @@ void solve()
 
 int main()
 {
-    solve();
+    solution();
     return 0;
 }
