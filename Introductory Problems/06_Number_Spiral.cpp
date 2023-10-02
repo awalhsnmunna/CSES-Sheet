@@ -1,6 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
 
+/* First we have to find which one is greater row or column. If the row is greater then we have to check whether row is
+even or odd. If row is even then 
+
+*/
 void solution()
 {
     long long int row, col, ans;
